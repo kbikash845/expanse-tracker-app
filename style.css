@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    color: aqua;
+    text-decoration: underline;
+}
+select{
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+}
+button{
+    padding: 5px;
+    background-color: aquamarine;
+    color: blue;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+#deletebtn{
+    margin-left: 12px;
+    background-color: brown;
+    border-radius: 2px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 8px;
+}
+li{
+    font-size: 20px;
+    font-weight: bold;
+}
+#editbtn{
+    margin-left: 12px;
+    background-color: aqua;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+label{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+

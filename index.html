@@ -1,0 +1,33 @@
+
+ <!DOCTYPE html> 
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense-Tracker</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+      <h1>Expanse Tracker App</h1>
+    <form id="items">
+        <label>Choose expenseamount</label> 
+        <input id="item1" type="number" name="amount" placeholder="amount" required>
+        <label>Choose description</label>
+        <input id="item2" type="text" name="description" placeholder="description" required>
+        <label>Choose category</label>
+        <!-- <input id="item3" type="text" name="category" placeholder="category" required> -->
+        <select id="item3" name="category">
+            <option>Movies</option>
+            <option>Food</option>
+            <option>electricity</option>
+            <option>Fuel</option>
+        </select>
+        <button>Add expense</button>
+
+    </form>
+    <ul id="users"></ul>
+
+    <script src="main.js"></script>
+</body>
+</html>
